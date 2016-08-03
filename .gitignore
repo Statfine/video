@@ -1,0 +1,8 @@
+.idea
+dist
+node_modules
+build
+installer
+.DS_Store
+npm-debug.log
+typings
