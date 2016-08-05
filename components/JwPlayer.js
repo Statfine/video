@@ -32,6 +32,11 @@ export default class JwPlayer extends Component {
       controls:true,
       aspectratio: '16:9',
     });
+
+    jwplayer(this.refs.video).onTime(function(){
+      debugger;
+      console.log(jwplayer('video').getPosition());
+    })
   }
 
   render(){
